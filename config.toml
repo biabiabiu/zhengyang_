@@ -275,7 +275,7 @@ theme = "LoveIt"
     #  是否使用 fontawesome 扩展语法
     fontawesome = true
     # 是否在文章页面显示原始 Markdown 文档链接
-    linkToMarkdown = true
+    linkToMarkdown = false
     #  是否在 RSS 中显示全文内容
     rssFullText = false
     #  目录配置
@@ -283,7 +283,7 @@ theme = "LoveIt"
       # 是否使用目录
       enable = true
       #  是否保持使用文章前面的静态目录
-      keepStatic = true
+      keepStatic = false
       # 是否使侧边目录自动折叠展开
       auto = true
     #  代码配置
@@ -481,7 +481,7 @@ theme = "LoveIt"
 
   #  Cookie 许可配置
   [params.cookieconsent]
-    enable = true
+    enable = false
     # 用于 Cookie 许可横幅的文本字符串
     [params.cookieconsent.content]
       message = ""

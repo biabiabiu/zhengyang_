@@ -2,6 +2,8 @@
 title: "如何区分大小三阳？"
 date: 2022-02-09T19:38:43+08:00
 draft: false
+tags: ["HBV","乙肝项目","临床试验"]
+categories: ["患者招募"]
 ---
 
 

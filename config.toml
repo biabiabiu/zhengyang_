@@ -54,9 +54,9 @@ theme = "LoveIt"
   #  LoveIt 主题版本
   version = "0.2.X"
   # 网站描述
-  description = "这是正阳的博客"
+  description = "正阳的博客，用以记录与分享..."
   # 网站关键词
-  keywords = ["Theme", "Hugo"]
+  keywords = ["临床试验","试药","记录","分享","患者","Excel","Theme", "Hugo","招募"]
   # 网站默认主题样式 ("light", "dark", "auto")
   defaultTheme = "auto"
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
@@ -72,7 +72,7 @@ theme = "LoveIt"
   #  应用图标配置
   [params.app]
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "LoveIt"
+    title = "愚人杂记"
     # 是否隐藏网站图标资源链接
     noFavicon = false
     # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
@@ -173,9 +173,9 @@ theme = "LoveIt"
       # 主页显示头像的 URL 在/LoveIt/assets/images
       avatarURL = "/images/avatar.png"
       #  主页显示的网站标题 (支持 HTML 格式)
-      title = ""
+      title = "正阳的博客"
       # 主页显示的网站副标题
-      subtitle = "正阳的博客,记录、分享..."
+      subtitle = "随意写点东西的正阳..."
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号

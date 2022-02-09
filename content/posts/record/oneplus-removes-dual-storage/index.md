@@ -18,7 +18,7 @@ categories: ["记录"]
 
 一般手机在停止使用应用双开后，这块独立出来的空间会随着被删除，但我的一加5T并没有
 
-{{< image src="http://mmbiz.qpic.cn/mmbiz_jpg/icgZtVHpEFicawGVO1hWuRbWnWEZlE1a4TcGkbZp3uCZwODK8zOqoUibhqqwdpNeT31wyhKTlkzPsichVPPMvdyqLg/0?wx_fmt=jpeg" caption="看上去很不舒服"  height="200px">}}
+{{< image src="/images/still-image/oneplus.jpg" caption="看上去很不舒服"  height="50%">}}
 
 双开微信，只是临时用一下，用完卸载后这个所谓的应用双开存储空间却没有被删除，而且系统上也没有提供删除的功能，只能自己想办法给清理掉
 

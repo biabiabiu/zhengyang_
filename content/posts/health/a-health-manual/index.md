@@ -15,8 +15,9 @@ categories: ["健康"]
 &nbsp;
 
 <center>
-    {{<image src="/tager.png" title="虎年大吉！" height="200%" >}}
+    {{<image src="/images/still-image/tager.png" title="虎年大吉！" height="300%" >}}
 </center>
+
 &nbsp;
 
 新的一年就要开始了，我们又要回到工作岗位继续奋斗了

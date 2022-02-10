@@ -467,7 +467,7 @@ theme = "LoveIt"
 
   #  网站分析配置
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
       id = ""
@@ -478,6 +478,9 @@ theme = "LoveIt"
       id = ""
       # 自行托管追踪器时的主机路径
       server = ""
+	# Baidu Analytics
+	[params.analytics.baidu]
+      id = "35e1eef01f89f09b3f850ca435ad2fec"
 
   #  Cookie 许可配置
   [params.cookieconsent]

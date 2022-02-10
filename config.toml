@@ -171,7 +171,7 @@ theme = "LoveIt"
       # Gravatar 邮箱，用于优先在主页显示的头像
       gravatarEmail = ""
       # 主页显示头像的 URL 在/LoveIt/assets/images
-      avatarURL = "/images/avatar.png"
+      avatarURL = "/images/avatar64x64.png"
       #  主页显示的网站标题 (支持 HTML 格式)
       title = "正阳的博客"
       # 主页显示的网站副标题

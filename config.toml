@@ -480,7 +480,7 @@ theme = "LoveIt"
       server = ""
 	# Baidu Analytics
 	[params.analytics.baidu]
-      id = "35e1eef01f89f09b3f850ca435ad2fec"
+	  id = "35e1eef01f89f09b3f850ca435ad2fec"
 
   #  Cookie 许可配置
   [params.cookieconsent]

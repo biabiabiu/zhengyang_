@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Lookup - 标签 - </title>
+        <link>https://zhengyang.wang/tags/lookup/</link>
+        <description>Lookup - 标签 - </description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 28 Oct 2020 20:22:17 &#43;0800</lastBuildDate><atom:link href="https://zhengyang.wang/tags/lookup/" rel="self" type="application/rss+xml" /><item>
+    <title>LOOKUP提取字符串首部数值</title>
+    <link>https://zhengyang.wang/excel-lookup-string-extraction/</link>
+    <pubDate>Wed, 28 Oct 2020 20:22:17 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://zhengyang.wang/excel-lookup-string-extraction/</guid>
+    <description><![CDATA[<p>Excel中使用<code>LOOKUP</code>提取字符串首部数值。</p>]]></description>
+</item></channel>
+</rss>

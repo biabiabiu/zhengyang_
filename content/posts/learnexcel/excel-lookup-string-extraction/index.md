@@ -1,7 +1,9 @@
 ---
 title: "LOOKUP提取字符串首部数值"
 description:  "Excel中用LOOKUP提取字符串首部数值"
-date: 2022-02-11T20:22:17+08:00
+keywords: ["excel","lookup"]
+
+date: 2020-10-28T20:22:17+08:00
 draft: false
 
 tags: ["Excel","Lookup"]
@@ -44,7 +46,7 @@ Excel中使用`LOOKUP`提取字符串首部数值。
 
 &nbsp;
 
-#### 解释
+
 
 ##### ROW($1:$4)
 

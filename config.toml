@@ -1,6 +1,6 @@
 # 下面[menu]以及[params]的优先级要高于上边
 
-baseURL = "https://foolnotes.netlify.app"
+baseURL = "https://zhengyang.wang"
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写

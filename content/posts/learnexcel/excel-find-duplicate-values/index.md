@@ -1,0 +1,95 @@
+---
+title: "Excel查找重复值"
+description:  "罗列出Excel查找重复值的四种方法"
+keywords: ["excel","countif"]
+
+date: 2020-10-21T23:53:03+08:00
+draft: false
+
+tags: ["Excel","CountIF"]
+categories: ["Excel"]
+---
+
+
+
+Excel中，如何用多种不同的方法找出表中的重复数据？
+
+<!--more-->
+
+#### 条件格式法
+
+自Excel 2010开始就内设了标识重复项的功能
+
+先选定一块区域，在`开始`→`条件格式`→`突出显示单元格规则`→`重复值`，就可以把重复数据及所在单元格标记出来
+
+<center>
+    <img class="jf-image-shadow" src="/images/gif/excel-find-duplicate-values1.gif" title="条件格式法" width="500px" />
+</center>
+
+{{< admonition >}}
+
+该方法只可以定位重复的数据而无法筛选出来
+
+{{< /admonition >}}
+
+#### 高级筛选法
+
+在`数据`→`筛选`→`高级`→ `高级筛选`
+
+<center>
+    <img class="jf-image-shadow" src="/images/gif/excel-find-duplicate-values2.gif" title="高级筛选法" width="500px" />
+</center>
+
+`方式` 根据自己需要选择
+
+`列表区域` 即需要查找的内容
+
+`复制到` 选择筛选结果存放位置
+
+#### 函数法
+
+##### COUNTIF函数
+
+用于统计满足某个条件的单元格的数量，因此可以用来快速查找重复数据
+
+<center>
+    <img class="jf-image-shadow" src="/images/still-image/excel-find-duplicate-values-countif.jpg" title="COUNTIF函数" width="500px" />
+</center>
+
+{{< admonition >}}
+
+计算条件，可以是数字，表达式或文本，如"London"，21，">55"等
+
+{{< /admonition >}}
+
+<center>
+    <img class="jf-image-shadow" src="/images/gif/excel-find-duplicate-values3.gif" title="函数法" width="500px" />
+</center>
+
+图中使用的都是COUNTIF函数，两种不同的用法
+
+标记重复值，COUNTIF会在绝对引用的单元格区域中，对所有数据出现的次数进行计数，所以AF6831903查找后的结果为3，即出现了三次，这种结果和前面的条件格式法结果类似，标记出哪些是重复项，并计算了重复多少次
+
+标记第n次重复项，公式每次选定的区域都不相同，数据每出现一次都会计算当前区域出现的次数，如AF6831903后结果为1，2，3即表示第一次出现，第二次出现，第三次出现...
+
+#### 数据透视法
+
+用数据透视表也可以快速地查找出重复项
+
+<center>
+    <img class="jf-image-shadow" src="/images/gif/excel-find-duplicate-values4.gif" title="数据透视法" width="500px" />
+</center>
+
+
+以上
+
+
+
+<div style="margin-top:2em;padding:0 1.5em;border:1px solid #d3d3d3;background-color:#f7f7f7">
+    <h3>文档信息</h3>
+    <ul style="padding-bottom:1.5em;">
+        <li style="padding-top:0.5em;">本文作者：<a href="https://zhengyang.wang/" target="_blank">正阳</a></li>
+        <li style="padding-top:0.5em;">本文链接：<a href="https://zhengyang.wang/excel-find-duplicate-values/" target="_blank">https://zhengyang.wang/excel-find-duplicate-values</a></li>
+        <li style="padding-top:0.5em;">版权声明：自由转载-非商用-非衍生-保持署名（<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" target="_blank">创意共享3.0许可证</a>）</li>
+    </ul>
+</div>

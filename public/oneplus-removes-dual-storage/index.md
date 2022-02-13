@@ -5,7 +5,7 @@
 
 
 
-记录了我的一加手机在关闭双开应用功能后如何抹除应用双开存储空间.
+记录了我的一加手机在关闭双开应用功能后如何抹除应用双开存储空间。
 
 <!--more-->
 
@@ -13,7 +13,10 @@
 
 一般手机在停止使用应用双开后，这块独立出来的空间会随着被删除，但我的一加5T并没有
 
-{{< image src="/images/still-image/oneplus.jpg" caption="看上去很不舒服"  height="50%">}}
+<center>
+    <img class="jf-image-shadow" src="/images/still-image/oneplus.jpg" title="看着很不爽" height="400px"/>
+</center>
+
 
 双开微信，只是临时用一下，用完卸载后这个所谓的应用双开存储空间却没有被删除，而且系统上也没有提供删除的功能，只能自己想办法给清理掉
 

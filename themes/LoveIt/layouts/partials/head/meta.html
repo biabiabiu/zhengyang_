@@ -2,6 +2,7 @@
 
 <meta name="Description" content="{{ $params.description | default .Site.Params.description }}">
 <!--增加description和keywords-->
+<meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}" property="og:title">
 <meta name='description' itemprop="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{substr .Summary 0 100}}{{ end }}{{ end }}">
 {{ if .Keywords }} 
 <meta name="keywords" content="{{ delimit .Keywords ", " }}" >

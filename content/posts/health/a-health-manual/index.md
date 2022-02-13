@@ -15,8 +15,9 @@ categories: ["健康"]
 &nbsp;
 
 <center>
-    {{<image src="/images/still-image/tager.png" title="虎年大吉！" height="300%" >}}
+    <img class="jf-image-shadow" src="/images/still-image/tager.png" title="虎年大吉！" height="300%" />
 </center>
+
 
 &nbsp;
 

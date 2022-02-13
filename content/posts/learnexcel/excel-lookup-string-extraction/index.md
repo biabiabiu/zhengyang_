@@ -27,7 +27,7 @@ Excel中使用`LOOKUP`提取字符串首部数值。
 ##### 分列
 
 <center>
-    {{<image src="/images/gif/excel_lookup_example1.gif" title="分列操作" width="400px" >}}
+    <img class="jf-image-shadow" src="/images/gif/excel_lookup_example1.gif" title="分列操作" width="400px" />
 </center>
 
 
@@ -38,8 +38,9 @@ Excel中使用`LOOKUP`提取字符串首部数值。
 ##### 公式
 
 <center>
-    {{<image src="/images/gif/excel_lookup_example2.gif" title="公式操作" width="400px" >}}
+    <img class="jf-image-shadow" src="/images/gif/excel_lookup_example2.gif" title="公式操作" width="400px" />
 </center>
+
 
 
 公式的效果更好一些
@@ -51,8 +52,9 @@ Excel中使用`LOOKUP`提取字符串首部数值。
 ##### ROW($1:$4)
 
 <center>
-    {{<image src="/images/gif/excel_row_example1.gif" title="公式ROW" width="400px" >}}
+    <img class="jf-image-shadow" src="/images/gif/excel_row_example1.gif" title="公式ROW" width="400px" />
 </center>
+
 
 
 这个公式会生成一个常量数组` {1;2;3;4}`，编辑栏会有变化
@@ -64,7 +66,7 @@ Excel中使用`LOOKUP`提取字符串首部数值。
 ##### -LEFT(D2,ROW($1:$4))
 
 <center>
-    {{<image src="/images/gif/excel_left_example1.gif" title="公式LEFT" width="400px" >}}
+    <img class="jf-image-shadow" src="/images/gif/excel_left_example1.gif" title="公式LEFT" width="400px" />
 </center>
 
 

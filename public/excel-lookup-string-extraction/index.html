@@ -7,6 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
         <title>LOOKUP提取字符串首部数值 - </title><meta name="Description" content="Excel中用LOOKUP提取字符串首部数值">
 
+<meta content="LOOKUP提取字符串首部数值 - " property="og:title">
 <meta name='description' itemprop="description" content="Excel中用LOOKUP提取字符串首部数值">
  
 <meta name="keywords" content="excel, lookup" >
@@ -155,58 +156,26 @@
 <h4 id="具体操作">具体操作</h4>
 <h5 id="分列">分列</h5>
 <center>
-    <a class="lightgallery" href="/images/gif/excel_lookup_example1.gif" title="分列操作" data-thumbnail="/images/gif/excel_lookup_example1.gif">
-        <img
-            class="lazyload"
-            src="/svg/loading.min.svg"
-            data-src="/images/gif/excel_lookup_example1.gif"
-            data-srcset="/images/gif/excel_lookup_example1.gif, /images/gif/excel_lookup_example1.gif 1.5x, /images/gif/excel_lookup_example1.gif 2x"
-            data-sizes="auto"
-            alt="/images/gif/excel_lookup_example1.gif" width="400px" />
-    </a>
+    <img class="jf-image-shadow" src="/images/gif/excel_lookup_example1.gif" title="分列操作" width="400px" />
 </center>
 <p>但是分列在大量数据格式不对称的情况下就失灵了</p>
 <p> </p>
 <h5 id="公式">公式</h5>
 <center>
-    <a class="lightgallery" href="/images/gif/excel_lookup_example2.gif" title="公式操作" data-thumbnail="/images/gif/excel_lookup_example2.gif">
-        <img
-            class="lazyload"
-            src="/svg/loading.min.svg"
-            data-src="/images/gif/excel_lookup_example2.gif"
-            data-srcset="/images/gif/excel_lookup_example2.gif, /images/gif/excel_lookup_example2.gif 1.5x, /images/gif/excel_lookup_example2.gif 2x"
-            data-sizes="auto"
-            alt="/images/gif/excel_lookup_example2.gif" width="400px" />
-    </a>
+    <img class="jf-image-shadow" src="/images/gif/excel_lookup_example2.gif" title="公式操作" width="400px" />
 </center>
 <p>公式的效果更好一些</p>
 <p> </p>
 <h5 id="row14">ROW($1:$4)</h5>
 <center>
-    <a class="lightgallery" href="/images/gif/excel_row_example1.gif" title="公式ROW" data-thumbnail="/images/gif/excel_row_example1.gif">
-        <img
-            class="lazyload"
-            src="/svg/loading.min.svg"
-            data-src="/images/gif/excel_row_example1.gif"
-            data-srcset="/images/gif/excel_row_example1.gif, /images/gif/excel_row_example1.gif 1.5x, /images/gif/excel_row_example1.gif 2x"
-            data-sizes="auto"
-            alt="/images/gif/excel_row_example1.gif" width="400px" />
-    </a>
+    <img class="jf-image-shadow" src="/images/gif/excel_row_example1.gif" title="公式ROW" width="400px" />
 </center>
 <p>这个公式会生成一个常量数组<code> {1;2;3;4}</code>，编辑栏会有变化</p>
 <p>目的是为了方便LEFT在D2单元格中取值，为什么会是<code>$1:$4？</code></p>
 <p> </p>
 <h5 id="-leftd2row14">-LEFT(D2,ROW($1:$4))</h5>
 <center>
-    <a class="lightgallery" href="/images/gif/excel_left_example1.gif" title="公式LEFT" data-thumbnail="/images/gif/excel_left_example1.gif">
-        <img
-            class="lazyload"
-            src="/svg/loading.min.svg"
-            data-src="/images/gif/excel_left_example1.gif"
-            data-srcset="/images/gif/excel_left_example1.gif, /images/gif/excel_left_example1.gif 1.5x, /images/gif/excel_left_example1.gif 2x"
-            data-sizes="auto"
-            alt="/images/gif/excel_left_example1.gif" width="400px" />
-    </a>
+    <img class="jf-image-shadow" src="/images/gif/excel_left_example1.gif" title="公式LEFT" width="400px" />
 </center>
 <p>LEFT配合上ROW生成的常量数组，会分别取左边的前一个、前两个、前三个、前四个字符</p>
 <p>加负号的目的，是对其进行减负运算，数值、文本型数值就直接变成0或负值，其他的不能转的就会变成错误值，最后即 <code>{-9;-99;-99;-99.9}</code></p>

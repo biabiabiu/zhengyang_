@@ -175,7 +175,7 @@ theme = "LoveIt"
       #  主页显示的网站标题 (支持 HTML 格式)
       title = "正阳的博客"
       # 主页显示的网站副标题
-      subtitle = "随意写点东西的正阳..."
+      subtitle = "随便写点东西的正阳..."
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号
@@ -256,7 +256,7 @@ theme = "LoveIt"
     Matrix = ""
     Bilibili = ""
     Email = "zhengyang@foxmail.com"
-    RSS = false # 
+    RSS = true # 
 
   #  文章页面配置
   [params.page]

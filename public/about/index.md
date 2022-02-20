@@ -3,11 +3,23 @@
 
 
 
+&nbsp;
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=86 src="//music.163.com/outchain/player?type=2&id=28996922&auto=1&height=66"></iframe>
+
 #### About Me
 
 东坡云：“事如春梦了无痕”，苟不记之笔墨，未免有辜彼苍之厚。以其所记者杂，故曰《杂记》
 
-这是正阳的博客，记录、分享...
+平时也有随便写写的习惯，但较为杂乱分散，不便于检索和管理，于是便有了本博客
+
+&nbsp;
+
+毕业于二流本科院校，后扎根成都，奋斗在`临床招募`一线
+
+**...**
+
+随便写写...
 
 &nbsp;
 

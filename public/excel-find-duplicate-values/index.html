@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Excel查找重复值 - </title><meta name="Description" content="罗列出Excel查找重复值的四种方法">
+
+<meta content="Excel查找重复值 - " property="og:title">
+<meta name='description' itemprop="description" content="罗列出Excel查找重复值的四种方法">
+ 
+<meta name="keywords" content="excel, countif" >
+<meta property="og:title" content="Excel查找重复值" />
+<meta property="og:description" content="罗列出Excel查找重复值的四种方法" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zhengyang.wang/excel-find-duplicate-values/" /><meta property="og:image" content="https://zhengyang.wang/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-10-21T23:53:03+08:00" />
+<meta property="article:modified_time" content="2020-10-21T23:53:03+08:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://zhengyang.wang/logo.png"/>
+
+<meta name="twitter:title" content="Excel查找重复值"/>
+<meta name="twitter:description" content="罗列出Excel查找重复值的四种方法"/>
+<meta name="application-name" content="愚人杂记">
+<meta name="apple-mobile-web-app-title" content="愚人杂记"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://zhengyang.wang/excel-find-duplicate-values/" /><link rel="prev" href="https://zhengyang.wang/stinky-fart/" /><link rel="next" href="https://zhengyang.wang/excel-lookup-string-extraction/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Excel查找重复值",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/zhengyang.wang\/excel-find-duplicate-values\/"
+        },"genre": "posts","keywords": "Excel, CountIF","wordcount":  633 ,
+        "url": "https:\/\/zhengyang.wang\/excel-find-duplicate-values\/","datePublished": "2020-10-21T23:53:03+08:00","dateModified": "2020-10-21T23:53:03+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "正阳"
+            },"description": "罗列出Excel查找重复值的四种方法"
+    }
+    </script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-547BWN3N27"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-547BWN3N27');
+		</script>
+    </head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="">愚人杂记</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/about/"> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="">愚人杂记</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/about/" title="">关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Excel查找重复值</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>正阳</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/excel/"><i class="far fa-folder fa-fw"></i>Excel</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-10-21">2020-10-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 633 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#条件格式法">条件格式法</a></li>
+            <li><a href="#高级筛选法">高级筛选法</a></li>
+            <li><a href="#函数法">函数法</a>
+              <ul>
+                <li><a href="#countif函数">COUNTIF函数</a></li>
+              </ul>
+            </li>
+            <li><a href="#数据透视法">数据透视法</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>Excel中，如何用多种不同的方法找出表中的重复数据？</p>
+<h4 id="条件格式法">条件格式法</h4>
+<p>自Excel 2010开始就内设了标识重复项的功能</p>
+<p>先选定一块区域，在<code>开始</code>→<code>条件格式</code>→<code>突出显示单元格规则</code>→<code>重复值</code>，就可以把重复数据及所在单元格标记出来</p>
+<center>
+    <img class="jf-image-shadow" src="/images/gif/excel-find-duplicate-values1.gif" title="条件格式法" width="500px" />
+</center>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>注意<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">该方法只可以定位重复的数据而无法筛选出来</div>
+        </div>
+    </div>
+<h4 id="高级筛选法">高级筛选法</h4>
+<p>在<code>数据</code>→<code>筛选</code>→<code>高级</code>→ <code>高级筛选</code></p>
+<center>
+    <img class="jf-image-shadow" src="/images/gif/excel-find-duplicate-values2.gif" title="高级筛选法" width="500px" />
+</center>
+<p><code>方式</code> 根据自己需要选择</p>
+<p><code>列表区域</code> 即需要查找的内容</p>
+<p><code>复制到</code> 选择筛选结果存放位置</p>
+<h4 id="函数法">函数法</h4>
+<h5 id="countif函数">COUNTIF函数</h5>
+<p>用于统计满足某个条件的单元格的数量，因此可以用来快速查找重复数据</p>
+<center>
+    <img class="jf-image-shadow" src="/images/still-image/excel-find-duplicate-values-countif.jpg" title="COUNTIF函数" width="500px" />
+</center>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>注意<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">计算条件，可以是数字，表达式或文本，如&quot;London&quot;，21，&quot;&gt;55&quot;等</div>
+        </div>
+    </div>
+<center>
+    <img class="jf-image-shadow" src="/images/gif/excel-find-duplicate-values3.gif" title="函数法" width="500px" />
+</center>
+<p>图中使用的都是COUNTIF函数，两种不同的用法</p>
+<p>标记重复值，COUNTIF会在绝对引用的单元格区域中，对所有数据出现的次数进行计数，所以AF6831903查找后的结果为3，即出现了三次，这种结果和前面的条件格式法结果类似，标记出哪些是重复项，并计算了重复多少次</p>
+<p>标记第n次重复项，公式每次选定的区域都不相同，数据每出现一次都会计算当前区域出现的次数，如AF6831903后结果为1，2，3即表示第一次出现，第二次出现，第三次出现&hellip;</p>
+<h4 id="数据透视法">数据透视法</h4>
+<p>用数据透视表也可以快速地查找出重复项</p>
+<center>
+    <img class="jf-image-shadow" src="/images/gif/excel-find-duplicate-values4.gif" title="数据透视法" width="500px" />
+</center>
+<p>以上</p>
+<div style="margin-top:2em;padding:0 1.5em;border:1px solid #d3d3d3;background-color:#f7f7f7">
+    <h3>文档信息</h3>
+    <ul style="padding-bottom:1.5em;">
+        <li style="padding-top:0.5em;">本文作者：<a href="https://zhengyang.wang/" target="_blank">正阳</a></li>
+        <li style="padding-top:0.5em;">本文链接：<a href="https://zhengyang.wang/excel-find-duplicate-values/" target="_blank">https://zhengyang.wang/excel-find-duplicate-values</a></li>
+        <li style="padding-top:0.5em;">版权声明：自由转载-非商用-非衍生-保持署名（<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" target="_blank">创意共享3.0许可证</a>）</li>
+    </ul>
+</div></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2020-10-21</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/excel/">Excel</a>,&nbsp;<a href="/tags/countif/">CountIF</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/stinky-fart/" class="prev" rel="prev" title="臭屁赋"><i class="fas fa-angle-left fa-fw"></i>臭屁赋</a>
+            <a href="/excel-lookup-string-extraction/" class="next" rel="next" title="LOOKUP提取字符串首部数值">LOOKUP提取字符串首部数值<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">正阳</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?35e1eef01f89f09b3f850ca435ad2fec";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+        </script></body>
+</html>

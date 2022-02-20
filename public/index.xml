@@ -3,7 +3,7 @@
         <title></title>
         <link>https://zhengyang.wang/</link>
         <description>正阳的博客，用以记录与分享...</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 09 Feb 2022 19:38:43 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 20 Feb 2022 20:18:53 &#43;0800</lastBuildDate>
             <atom:link href="https://zhengyang.wang/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Markdown 基本语法</title>
@@ -13,11 +13,25 @@
     <guid>https://zhengyang.wang/basic-markdown-syntax/</guid>
     <description><![CDATA[<p>这篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 语法示例.</p>]]></description>
 </item><item>
+    <title>Hugo图片添加阴影和圆角</title>
+    <link>https://zhengyang.wang/imgs-shadow/</link>
+    <pubDate>Sun, 20 Feb 2022 20:18:53 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://zhengyang.wang/imgs-shadow/</guid>
+    <description><![CDATA[<p>为文章的图片添加阴影和圆角效果。</p>]]></description>
+</item><item>
+    <title>文章内容增加版权声明</title>
+    <link>https://zhengyang.wang/add-copyright-notice/</link>
+    <pubDate>Mon, 14 Feb 2022 00:56:45 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://zhengyang.wang/add-copyright-notice/</guid>
+    <description><![CDATA[<p>为我的原创文章增加版权声明。</p>]]></description>
+</item><item>
     <title>如何区分大小三阳？</title>
-    <link>https://zhengyang.wang/hbv/</link>
+    <link>https://zhengyang.wang/hbv-respectively/</link>
     <pubDate>Wed, 09 Feb 2022 19:38:43 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://zhengyang.wang/hbv/</guid>
+    <guid>https://zhengyang.wang/hbv-respectively/</guid>
     <description><![CDATA[<p>这一篇记录了针对乙肝患者的<code>乙肝五项</code>，如何区分<code>大三阳</code>和<code>小三阳</code>。</p>]]></description>
 </item><item>
     <title>健康手册</title>
@@ -54,5 +68,12 @@
     <author>作者</author>
     <guid>https://zhengyang.wang/excel-lookup-string-extraction/</guid>
     <description><![CDATA[<p>Excel中使用<code>LOOKUP</code>提取字符串首部数值。</p>]]></description>
+</item><item>
+    <title>Excel查找重复值</title>
+    <link>https://zhengyang.wang/excel-find-duplicate-values/</link>
+    <pubDate>Wed, 21 Oct 2020 23:53:03 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://zhengyang.wang/excel-find-duplicate-values/</guid>
+    <description><![CDATA[<p>Excel中，如何用多种不同的方法找出表中的重复数据？</p>]]></description>
 </item></channel>
 </rss>

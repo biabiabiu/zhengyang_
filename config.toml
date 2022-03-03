@@ -11,6 +11,9 @@ hasCJKLanguage = true
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "LoveIt"
 
+# website title
+# 网站标题
+title = "愚人杂记"
 
 [menu]
   [[menu.main]]

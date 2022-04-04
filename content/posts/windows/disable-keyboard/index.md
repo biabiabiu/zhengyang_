@@ -6,7 +6,7 @@ keywords: ["键盘","笔记本"]
 date: 2022-03-06T16:58:30+08:00
 draft: false
 
-tags: ["windows键盘"]
+tags: ["键盘禁用"]
 categories: ["Windows","记录"]
 ---
 

@@ -178,7 +178,7 @@ title = "愚人杂记"
       #  主页显示的网站标题 (支持 HTML 格式)
       title = "正阳的博客"
       # 主页显示的网站副标题
-      subtitle = "随便写点东西的正阳..."
+      subtitle = "记录分享，自我提升与学习成长的自留地"
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号
@@ -259,7 +259,7 @@ title = "愚人杂记"
     Matrix = ""
     Bilibili = ""
     Email = "zhengyang@foxmail.com"
-    RSS = true # 
+    RSS = false # 
 
   #  文章页面配置
   [params.page]

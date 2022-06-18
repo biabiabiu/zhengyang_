@@ -40,7 +40,7 @@ categories: ["Hugo"]
      remotes/origin/master
    ```
 
-4. 将本地分支与远程关联
+4. 将本地分支与远程关联同步
 
    ```bash
    $ git pull origin master

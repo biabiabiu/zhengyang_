@@ -1,5 +1,5 @@
 ---
-title: "使用SeaTable进行项目管理以及数据统计"
+title: "使用SeaTable进行项目管理和数据收集统计"
 description:  "介绍了我是如何在众多项目管理软件中最终选择了SeaTable"
 keywords: ["项目管理","SeaTable"]
 
@@ -16,59 +16,86 @@ categories: ["工作"]
 
 很久没有更新了，倒不是没有精力。坚持对我来说确实不是一件简单的事。
 
-从去年跳槽至现在的一家小招募公司，已经过去半年的时间，招募专员的工作也从熟悉变得逐渐熟练起来。
+## 前言
 
-出于老板对我的的信任和肯定，以及自己也不甘一直处于一线的想法，我做起了项目经理的工作。当然，更大的原因是公司人手不足
+去年跳槽至一家小公司，已经过去半年的时间。出于老板对我的的信任和肯定，以及自己也不甘一直处于一线，我担任起了项目经理的职位。当然，更大的原因是公司人手不足。
 
-刚开始确实把我给乐坏了，毕竟，这也是毕业以来第一次能得到领导的赏识，心中的喜悦是掩盖不住的。但问题也渐渐暴露了出来
+日常工作，我需要跟进每个项目的进度，并及时与申办方做好对接工作，但是这么多的项目，工作只有我一个来进行，如果没有及时更新数据，可能会影响到公司的正常运营。
 
-- 经验不足
+另外，所有专员的患者资料也是提交到我这里进行审核上报以及后续的状态跟进，同样不能出岔子。我还需要每周对各个专员的工作情况，患者提交情况做好记录统计，每周进行汇报，这就更不能出错了。
 
-  虽然还没有毕业就接触过这一行，工作经验倒是有些，但阅历及社会经验不够，看待问题的方式完全没有“老辣”一说，过于稚嫩。除此之外，日常工作需要我统计很多数据，很容易出错
+除此之外，公司得其他零零总总的事务多少也会经过我，比如项目报价、项目中心覆盖情况统计、招募计划等各种表，信息零散，事务繁杂，容不得半点马虎大意。没办法，公司缺人手...
 
-- 业务知识匮乏
+因为工作越来越繁杂，为了能保证所有的数据都能准确记录而且不轻易丢失，无论身边是否有电脑都可以及时进行更新，我需要一款软件来协助我，提升工作效率。
 
-  可能刚刚起步的小公司都会面临的问题，如新入职的员工培训怎么做？谁来做？这项任务落在了我身上，可是平时都是听命行事不带主见地执行者，突然让我对新人进行系统的培训、管理，转变为方案的制定实施者，有些不知所措了；再如，项目经理的工作，老板也没个说法章程，都是先执行，临时想到了再补充，以至于自己的工作内容总是飘忽不定的
+## SeaTable
 
-- 体系不完善
+> [SeaTable - 新一代在线协同表格和数字化平台](https://www.seatable.cn/)
 
-  公司是一家只有个位数员工的小招募公司，公司架构、章程规定、任务分配等都不是很完善，前面也有提到，想到什么补什么。比如公司的公众号运营、PPT等也在我的工作范畴内
+它除了支持表格记录管理数据的基本操作外，还增加了在线协同、表单等功能模块，也可以按需选择提供的面向不同行业，不同业务的模板，用其进行项目管理，信息管理的确比较方便。另外也尝试了`PingCode`、`Teambition`等优秀的团队协作和项目管理软件，SeaTable是目前最适合我的
 
-在诸多困难面前，前期肯定是需要吃些苦头的。现在终于是逐渐习惯了这样的工作模式，许多本不属于我的工作，在老板给适当涨了点工资后也不再排斥，虽不专业，但都能应付，有什么尽管来。公众号，来！PPT，来！公司名片设计，来！团队管理，来！竞标会，来...
+##### 主要功能
 
-不经意居然写下这么多，就算是对这段时间的工作进行回顾吧
+1. 在线协同共享
+2. 信息记录，管理
+3. 表单数据收集
+4. 工作流(比较适合小团队的运营，任务发布，工作审批等，暂未用到)
+5. 支持自动化(暂未用到)
+6. 其他
 
-#### SeaTable
+##### 收费标准
 
-因为工作越来越杂，而最主要的工作不能落下，因此，我需要一款项目管理软件来协助我的工作
+SeaTable对个人以及20人以下的小团队免费开放，如果需求量大可以考虑付费，对于小企业来讲还是比较人性化的
 
-> [SeaTable](https://www.seatable.cn/)
-
-自称是`新型在线协同表格和信息管理工具`，使用过一段时间，就是以在线表格为基础的信息管理工具，其本质仍离不开表格。
-
-用表格形式将诸多表格的衍生产品以及其他的拓展功能整合进去，比如可视化图表、甘特图、工作流等，相对于金山文档这些办公软件，它更专业、更高垂直度
-
-大家都说，那么多的项目管理软件，适合自己的才是最好的，自己也尝试了`PingCode`、`Teambition`等优秀的团队协作和项目管理软件，SeaTable是目前最适合我的
-
-
-
+<center>
+    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-6.png" title="Seatable收费表" height="100%" width="80%"/>
+</center>
 
 
+##### 团队免费版
+
+<center>
+    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-5.png" title="Seatable团队免费版套餐" height="100%" width="80%"/>
+</center>
 
 
+##### 模板
+
+<center>
+    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-2.png" title="Seatable模板" height="100%" width="80%"/>
+</center>
 
 
+##### 其他展示
+
+<center>
+    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-1.png" title="我的Seatable" height="100%" width="80%"/>
+</center>
+
+&nbsp;
+
+<center>
+    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-3.png" title="Seatable展示" height="100%" width="80%"/>
+</center>
+
+&nbsp;
+
+<center>
+    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-4.png" title="Seatable展示" height="100%" width="80%"/>
+</center>
+
+&nbsp;
+
+<center>
+    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-7.png" title="Seatable工作流" height="100%" width="80%"/>
+</center>
 
 
+&nbsp;
 
+目前已经借助往SeaTable完成了很多工作，例如做统计，汇报，表单收集等，都可以很方便的及时更新以及导出，的确节省了我很多时间与精力，而且也不用再担心表格不小心被删除，数据丢失的情况发生
 
-
-
-
-
-
-
-
+最后，感谢SeaTable开发团队！
 
 
 
@@ -76,7 +103,7 @@ categories: ["工作"]
     <hr>
     <div style="padding-bottom:1em;">
         <p>本文作者：<a href="https://zhengyang.wang/about" target="_blank">正阳</a></p>
-        <p>本文链接：<a href="https://zhengyang.wang/linux-config-clash/" target="_blank">https://zhengyang.wang/linux-config-clash</a></p>
+        <p>本文链接：<a href="https://zhengyang.wang/project-manage-SeaTable/" target="_blank">https://zhengyang.wang/project-manage-SeaTable</a></p>
         <p>版权声明：自由转载-非商用-非衍生-保持署名（<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" target="_blank">创意共享3.0许可证</a>）</p>
     </div>
 </div>

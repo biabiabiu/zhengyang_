@@ -23,7 +23,7 @@ math:
 
 **...**
 
-随便写写...
+随便写写
 
 &nbsp;
 
@@ -39,5 +39,5 @@ Email:  zhengyang.one@foxmail.com
 
 #### History
 
-于2022年建站，基于`Hugo`搭建，托管在`Netlify`
+于2022年建站，基于`Hugo`搭建，托管在`Netlify`.
 

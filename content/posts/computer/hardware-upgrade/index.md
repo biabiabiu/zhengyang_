@@ -258,12 +258,3 @@ com.qq.weixin.deepin/未知,now 3.4.0.38deepin6 i386 [已安装]
 打算后续再组装一个台式机，硬盘配置就512G固态+1T机械，分别装Windows和Linux，机械硬盘两者都可以挂载读取。两者又可作为主力使用，Windows上打打游戏，Linux学学开发(有人说使用Liunx本就是学习)
 
 笔记本就不折腾了，Windows养老
-
-<div style="margin-top:2em;padding:0 0.5em;font-size:.875rem">
-    <hr>
-    <div style="padding-bottom:1em;">
-        <p>本文作者：<a href="https://zhengyang.wang/about" target="_blank">正阳</a></p>
-        <p>本文链接：<a href="https://zhengyang.wang/hardware-upgrade/" target="_blank">https://zhengyang.wang/hardware-upgrade</a></p>
-        <p>版权声明：自由转载-非商用-非衍生-保持署名（<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" target="_blank">创意共享3.0许可证</a>）</p>
-    </div>
-</div>

@@ -373,15 +373,17 @@ title = "愚人杂记"
         clientSecret = ""
       # Valine 评论系统设置
       [params.page.comment.valine]
-        enable = false
-        appId = ""
-        appKey = ""
-        placeholder = ""
-        avatar = "mp"
+        enable = true
+        appId = "yocSeA09ERQe41D8ZjLSIZ3x-gzGzoHsz"
+        appKey = "NifvCfwUs9HUufxhCfC78w5p"
+        placeholder = "说点什么呗..."
+        avatar = "monsterid"
+        notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
+        verify = false # Verification code
         meta= ""
         pageSize = 10
         lang = ""
-        visitor = true
+        visitor = false
         recordIP = true
         highlight = true
         enableQQ = false

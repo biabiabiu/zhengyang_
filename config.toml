@@ -269,9 +269,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # 是否在搜索索引中使用基于 baseURL 的绝对路径
     absoluteURL = false
     [params.search.algolia]
-      index = ""
-      appID = ""
-      searchKey = ""
+      index = "zhengyang.wang"
+      appID = "06SRK6KLON"
+      searchKey = "453e41dab0f60b72d2ca984b083d90a1"
 
   # Home page config
   # 主页信息设置
@@ -356,7 +356,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     Strava = ""
     Skype = ""
     Whatsapp = ""
-    Zhihu = "people/zhengyang_"
+    Zhihu = "zhengyang_"
     Douban = ""
     Angellist = ""
     Slidershare = ""
@@ -535,7 +535,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         appId = "yocSeA09ERQe41D8ZjLSIZ3x-gzGzoHsz"
         appKey = "NifvCfwUs9HUufxhCfC78w5p"
         placeholder = "留下点文字吧..."
-        avatar = "mm"
+        avatar = ""
         meta= ""
         pageSize = 10
         # automatically adapt the current theme i18n configuration when empty

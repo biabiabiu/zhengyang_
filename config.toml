@@ -196,9 +196,9 @@ title = "愚人杂记"
 
   # 作者的社交信息设置
   [params.social]
-	Zhihu = "people/zhengyang_"
-    Twitter = "3haheiqWPZJe9fo"
-	GitHub = ""
+	  Zhihu = "people/zhengyang_"
+    Twitter = "zhengyang_w"
+	  GitHub = ""
     Linkedin = ""
     Instagram = ""
     Facebook = ""
@@ -378,12 +378,11 @@ title = "愚人杂记"
         appKey = "NifvCfwUs9HUufxhCfC78w5p"
         placeholder = "说点什么呗..."
         avatar = "monsterid"
-        notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
-        verify = false # Verification code
+        requiredFields = ['nick','mail']
         meta= ""
         pageSize = 10
         lang = ""
-        visitor = false
+        visitor = true
         recordIP = true
         highlight = true
         enableQQ = false

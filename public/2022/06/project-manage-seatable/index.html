@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>使用SeaTable进行项目管理和数据收集统计 - 愚人杂记</title><meta name="Description" content="介绍了我是如何在众多项目管理软件中最终选择了SeaTable"><meta property="og:title" content="使用SeaTable进行项目管理和数据收集统计" />
+<meta property="og:description" content="介绍了我是如何在众多项目管理软件中最终选择了SeaTable" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zhengyang.wang/2022/06/project-manage-seatable/" /><meta property="og:image" content="https://zhengyang.wang/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-06-13T21:28:29+08:00" />
+<meta property="article:modified_time" content="2022-06-13T21:28:29+08:00" /><meta property="og:site_name" content="愚人杂记" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://zhengyang.wang/logo.png"/>
+
+<meta name="twitter:title" content="使用SeaTable进行项目管理和数据收集统计"/>
+<meta name="twitter:description" content="介绍了我是如何在众多项目管理软件中最终选择了SeaTable"/>
+<meta name="application-name" content="愚人杂记">
+<meta name="apple-mobile-web-app-title" content="愚人杂记"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://zhengyang.wang/2022/06/project-manage-seatable/" /><link rel="prev" href="https://zhengyang.wang/2022/04/linux-autodisable-keyboard/" /><link rel="next" href="https://zhengyang.wang/2022/06/git-pull-2022-6-14/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "使用SeaTable进行项目管理和数据收集统计",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/zhengyang.wang\/2022\/06\/project-manage-seatable\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/zhengyang.wang\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "项目管理, SeaTable","wordcount":  891 ,
+        "url": "https:\/\/zhengyang.wang\/2022\/06\/project-manage-seatable\/","datePublished": "2022-06-13T21:28:29+08:00","dateModified": "2022-06-13T21:28:29+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "正阳","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/zhengyang.wang\/images\/avatar.png",
+                    "width":  528 ,
+                    "height":  560 
+                }},"author": {
+                "@type": "Person",
+                "name": "正阳"
+            },"description": "介绍了我是如何在众多项目管理软件中最终选择了SeaTable"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="愚人杂记"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>愚人杂记</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/" title="Posts"> 所有文章 </a><a class="menu-item" href="/tags/" title="Tags"> 标签 </a><a class="menu-item" href="/categories/" title="Categories"> 分类 </a><a class="menu-item" href="/categories/documentation/" title="Documentation"> 文档 </a><a class="menu-item" href="/about/" title="About"> 关于 </a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/2022/06/project-manage-seatable/" selected>简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="愚人杂记"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>愚人杂记</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="Posts">所有文章</a><a class="menu-item" href="/tags/" title="Tags">标签</a><a class="menu-item" href="/categories/" title="Categories">分类</a><a class="menu-item" href="/categories/documentation/" title="Documentation">文档</a><a class="menu-item" href="/about/" title="About">关于</a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/2022/06/project-manage-seatable/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">使用SeaTable进行项目管理和数据收集统计</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://zhengyang.wang" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>正阳</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E5%B7%A5%E4%BD%9C/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>工作</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-06-13">2022-06-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 891 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 2 分钟&nbsp;<span id="/2022/06/project-manage-seatable/" class="leancloud_visitors" data-flag-title="使用SeaTable进行项目管理和数据收集统计">
+                        <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
+                    </span>&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#seatable">SeaTable</a>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <ul>
+                <li><a href="#主要功能">主要功能</a></li>
+                <li><a href="#收费标准">收费标准</a></li>
+                <li><a href="#团队免费版">团队免费版</a></li>
+                <li><a href="#模板">模板</a></li>
+                <li><a href="#其他展示">其他展示</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>这篇介绍了我是如何在众多项目管理软件中，最终选择了SeaTable，以及后续的基础使用。</p>
+<p>很久没有更新了，倒不是没有精力。坚持对我来说确实不是一件简单的事。</p>
+<h2 id="前言">前言</h2>
+<p>去年跳槽至一家小公司，已经过去半年的时间。出于老板对我的的信任和肯定，以及自己也不甘一直处于一线，我担任起了项目经理的职位。当然，更大的原因是公司人手不足。</p>
+<p>日常工作，我需要跟进每个项目的进度，并及时与申办方做好对接工作，但是这么多的项目，工作只有我一个来进行，如果没有及时更新数据，可能会影响到公司的正常运营。</p>
+<p>另外，所有专员的患者资料也是提交到我这里进行审核上报以及后续的状态跟进，同样不能出岔子。我还需要每周对各个专员的工作情况，患者提交情况做好记录统计，每周进行汇报，这就更不能出错了。</p>
+<p>除此之外，公司得其他零零总总的事务多少也会经过我，比如项目报价、项目中心覆盖情况统计、招募计划等各种表，信息零散，事务繁杂，容不得半点马虎大意。没办法，公司缺人手&hellip;</p>
+<p>因为工作越来越繁杂，为了能保证所有的数据都能准确记录而且不轻易丢失，无论身边是否有电脑都可以及时进行更新，我需要一款软件来协助我，提升工作效率。</p>
+<h2 id="seatable">SeaTable</h2>
+<blockquote>
+<p><a href="https://www.seatable.cn/" target="_blank" rel="noopener noreffer ">SeaTable - 新一代在线协同表格和数字化平台</a></p>
+</blockquote>
+<p>它除了支持表格记录管理数据的基本操作外，还增加了在线协同、表单等功能模块，也可以按需选择提供的面向不同行业，不同业务的模板，用其进行项目管理，信息管理的确比较方便。另外也尝试了<code>PingCode</code>、<code>Teambition</code>等优秀的团队协作和项目管理软件，SeaTable是目前最适合我的</p>
+<h5 id="主要功能">主要功能</h5>
+<ol>
+<li>在线协同共享</li>
+<li>信息记录，管理</li>
+<li>表单数据收集</li>
+<li>工作流(比较适合小团队的运营，任务发布，工作审批等，暂未用到)</li>
+<li>支持自动化(暂未用到)</li>
+<li>其他</li>
+</ol>
+<h5 id="收费标准">收费标准</h5>
+<p>SeaTable对个人以及20人以下的小团队免费开放，如果需求量大可以考虑付费，对于小企业来讲还是比较人性化的</p>
+<center>
+    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-6.png" title="Seatable收费表" height="100%" width="80%"/>
+</center>
+<h5 id="团队免费版">团队免费版</h5>
+<center>
+    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-5.png" title="Seatable团队免费版套餐" height="100%" width="80%"/>
+</center>
+<h5 id="模板">模板</h5>
+<center>
+    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-2.png" title="Seatable模板" height="100%" width="80%"/>
+</center>
+<h5 id="其他展示">其他展示</h5>
+<center>
+    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-1.png" title="我的Seatable" height="100%" width="80%"/>
+</center>
+<p> </p>
+<center>
+    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-3.png" title="Seatable展示" height="100%" width="80%"/>
+</center>
+<p> </p>
+<center>
+    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-4.png" title="Seatable展示" height="100%" width="80%"/>
+</center>
+<p> </p>
+<center>
+    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-7.png" title="Seatable工作流" height="100%" width="80%"/>
+</center>
+<p> </p>
+<p>目前已经借助往SeaTable完成了很多工作，例如做统计，汇报，表单收集等，都可以很方便的及时更新以及导出，的确节省了我很多时间与精力，而且也不用再担心表格不小心被删除，数据丢失的情况发生</p>
+<p>最后，感谢SeaTable开发团队！</p>
+            <div style="margin-top:2em;padding:0 0.5em;font-size:.875rem">
+                <hr>
+                <div style="padding-bottom:1em;">
+                    <p>本文作者：<a href="https://zhengyang.wang/about" target="_blank">正阳</a></p>
+                    <p>本文链接：<a href="https://zhengyang.wang/2022/06/project-manage-seatable/" target="_blank">使用SeaTable进行项目管理和数据收集统计</a></p>
+                    <p>版权声明：<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">「署名-非商业性使用-相同方式共享 4.0 国际」</a></p>
+                </div>
+            </div>
+        </div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2022-06-13</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/2022/06/project-manage-seatable/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://zhengyang.wang/2022/06/project-manage-seatable/" data-title="使用SeaTable进行项目管理和数据收集统计" data-via="zhengyang_w" data-hashtags="项目管理,SeaTable"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://zhengyang.wang/2022/06/project-manage-seatable/" data-hashtag="项目管理"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://zhengyang.wang/2022/06/project-manage-seatable/" data-title="使用SeaTable进行项目管理和数据收集统计"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://zhengyang.wang/2022/06/project-manage-seatable/" data-title="使用SeaTable进行项目管理和数据收集统计"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://zhengyang.wang/2022/06/project-manage-seatable/" data-title="使用SeaTable进行项目管理和数据收集统计"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/">项目管理</a>,&nbsp;<a href="/tags/seatable/">SeaTable</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/2022/04/linux-autodisable-keyboard/" class="prev" rel="prev" title="Linux设置自动禁用键盘"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Linux设置自动禁用键盘</a>
+            <a href="/2022/06/git-pull-2022-6-14/" class="next" rel="next" title="博客出了问题">博客出了问题<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+<div id="comments"><div id="valine" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://zhengyang.wang" target="_blank">正阳</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.5.0/dist/Valine.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":30},"comment":{"valine":{"appId":"yocSeA09ERQe41D8ZjLSIZ3x-gzGzoHsz","appKey":"NifvCfwUs9HUufxhCfC78w5p","avatar":"mm","el":"#valine","emojiCDN":"https://cdn.jsdelivr.net/npm/emoji-datasource-google@14.0.0/img/google/64/","emojiMaps":{"100":"1f4af.png","alien":"1f47d.png","anger":"1f4a2.png","angry":"1f620.png","anguished":"1f627.png","astonished":"1f632.png","black_heart":"1f5a4.png","blue_heart":"1f499.png","blush":"1f60a.png","bomb":"1f4a3.png","boom":"1f4a5.png","broken_heart":"1f494.png","brown_heart":"1f90e.png","clown_face":"1f921.png","cold_face":"1f976.png","cold_sweat":"1f630.png","confounded":"1f616.png","confused":"1f615.png","cry":"1f622.png","crying_cat_face":"1f63f.png","cupid":"1f498.png","dash":"1f4a8.png","disappointed":"1f61e.png","disappointed_relieved":"1f625.png","dizzy":"1f4ab.png","dizzy_face":"1f635.png","drooling_face":"1f924.png","exploding_head":"1f92f.png","expressionless":"1f611.png","face_vomiting":"1f92e.png","face_with_cowboy_hat":"1f920.png","face_with_hand_over_mouth":"1f92d.png","face_with_head_bandage":"1f915.png","face_with_monocle":"1f9d0.png","face_with_raised_eyebrow":"1f928.png","face_with_rolling_eyes":"1f644.png","face_with_symbols_on_mouth":"1f92c.png","face_with_thermometer":"1f912.png","fearful":"1f628.png","flushed":"1f633.png","frowning":"1f626.png","ghost":"1f47b.png","gift_heart":"1f49d.png","green_heart":"1f49a.png","grimacing":"1f62c.png","grin":"1f601.png","grinning":"1f600.png","hankey":"1f4a9.png","hear_no_evil":"1f649.png","heart":"2764-fe0f.png","heart_decoration":"1f49f.png","heart_eyes":"1f60d.png","heart_eyes_cat":"1f63b.png","heartbeat":"1f493.png","heartpulse":"1f497.png","heavy_heart_exclamation_mark_ornament":"2763-fe0f.png","hole":"1f573-fe0f.png","hot_face":"1f975.png","hugging_face":"1f917.png","hushed":"1f62f.png","imp":"1f47f.png","innocent":"1f607.png","japanese_goblin":"1f47a.png","japanese_ogre":"1f479.png","joy":"1f602.png","joy_cat":"1f639.png","kiss":"1f48b.png","kissing":"1f617.png","kissing_cat":"1f63d.png","kissing_closed_eyes":"1f61a.png","kissing_heart":"1f618.png","kissing_smiling_eyes":"1f619.png","laughing":"1f606.png","left_speech_bubble":"1f5e8-fe0f.png","love_letter":"1f48c.png","lying_face":"1f925.png","mask":"1f637.png","money_mouth_face":"1f911.png","nauseated_face":"1f922.png","nerd_face":"1f913.png","neutral_face":"1f610.png","no_mouth":"1f636.png","open_mouth":"1f62e.png","orange_heart":"1f9e1.png","partying_face":"1f973.png","pensive":"1f614.png","persevere":"1f623.png","pleading_face":"1f97a.png","pouting_cat":"1f63e.png","purple_heart":"1f49c.png","rage":"1f621.png","relaxed":"263a-fe0f.png","relieved":"1f60c.png","revolving_hearts":"1f49e.png","right_anger_bubble":"1f5ef-fe0f.png","robot_face":"1f916.png","rolling_on_the_floor_laughing":"1f923.png","scream":"1f631.png","scream_cat":"1f640.png","see_no_evil":"1f648.png","shushing_face":"1f92b.png","skull":"1f480.png","skull_and_crossbones":"2620-fe0f.png","sleeping":"1f634.png","sleepy":"1f62a.png","slightly_frowning_face":"1f641.png","slightly_smiling_face":"1f642.png","smile":"1f604.png","smile_cat":"1f638.png","smiley":"1f603.png","smiley_cat":"1f63a.png","smiling_face_with_3_hearts":"1f970.png","smiling_imp":"1f608.png","smirk":"1f60f.png","smirk_cat":"1f63c.png","sneezing_face":"1f927.png","sob":"1f62d.png","space_invader":"1f47e.png","sparkling_heart":"1f496.png","speak_no_evil":"1f64a.png","speech_balloon":"1f4ac.png","star-struck":"1f929.png","stuck_out_tongue":"1f61b.png","stuck_out_tongue_closed_eyes":"1f61d.png","stuck_out_tongue_winking_eye":"1f61c.png","sunglasses":"1f60e.png","sweat":"1f613.png","sweat_drops":"1f4a6.png","sweat_smile":"1f605.png","thinking_face":"1f914.png","thought_balloon":"1f4ad.png","tired_face":"1f62b.png","triumph":"1f624.png","two_hearts":"1f495.png","unamused":"1f612.png","upside_down_face":"1f643.png","weary":"1f629.png","white_frowning_face":"2639-fe0f.png","white_heart":"1f90d.png","wink":"1f609.png","woozy_face":"1f974.png","worried":"1f61f.png","yawning_face":"1f971.png","yellow_heart":"1f49b.png","yum":"1f60b.png","zany_face":"1f92a.png","zipper_mouth_face":"1f910.png","zzz":"1f4a4.png"},"enableQQ":false,"highlight":true,"lang":"zh-CN","pageSize":10,"placeholder":"留下点文字吧...","recordIP":true,"visitor":true}},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?35e1eef01f89f09b3f850ca435ad2fec";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+        </script></body>
+</html>

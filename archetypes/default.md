@@ -4,34 +4,8 @@ description:  ""
 keywords: ["",""]
 
 date: {{ .Date }}
-draft: false
+draft: true
 
 tags: [""]
 categories: [""]
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

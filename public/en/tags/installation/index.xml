@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>installation - Tag - 愚人杂记</title>
+        <link>https://zhengyang.wang/en/tags/installation/</link>
+        <description>installation - Tag - 愚人杂记</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>zhengyang.one@foxmail.com (正阳)</managingEditor>
+            <webMaster>zhengyang.one@foxmail.com (正阳)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</lastBuildDate><atom:link href="https://zhengyang.wang/en/tags/installation/" rel="self" type="application/rss+xml" /><item>
+    <title>Theme Documentation - Basics</title>
+    <link>https://zhengyang.wang/en/2020/03/theme-documentation-basics/</link>
+    <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
+    <author>Dillon</author>
+    <guid>https://zhengyang.wang/en/2020/03/theme-documentation-basics/</guid>
+    <description><![CDATA[<p>Discover what the Hugo - <strong>LoveIt</strong> theme is all about and the core-concepts behind it.</p>]]></description>
+</item>
+</channel>
+</rss>

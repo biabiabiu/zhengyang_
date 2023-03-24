@@ -1,18 +1,6 @@
 {{- $params := .Scratch.Get "params" -}}
 
 <meta name="Description" content="{{ $params.description | default .Site.Params.description }}">
-<!--增加360验证-->
-<meta name="360-site-verification" content="dd0f2b00893e275f824a3f502bba5905" />
-<!--增加sougou验证-->
-<meta name="sogou_site_verification" content="DLaCDX7JVk" />
-<!--增加description和keywords-->
-<meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}" property="og:title">
-<meta name='description' itemprop="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{substr .Summary 0 100}}{{ end }}{{ end }}">
-{{ if .Keywords }} 
-<meta name="keywords" content="{{ delimit .Keywords ", " }}" >
-{{else}}
-<meta name="keywords" content="{{ delimit .Site.Params.Keywords ", " }}" >
-{{ end }}
 
 {{- template "_internal/opengraph.html" . -}}
 {{- template "_internal/twitter_cards.html" . -}}

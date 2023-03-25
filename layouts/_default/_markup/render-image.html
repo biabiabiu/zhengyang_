@@ -1,0 +1,19 @@
+{{- if .Title -}}
+    <figure>
+        {{- dict "Src" .Destination "Title" .Text "Caption" .Title "Linked" true "Resources" .Page.Resources | partial "plugin/img.html" -}}
+        <figcaption class="image-caption">
+            {{- .Title | safeHTML -}}
+        </figcaption>
+    </figure>
+{{- else -}}
+    {{- dict "Src" .Destination "Title" .Text "Resources" .Page.Resources | partial "plugin/img.html" -}}
+{{- end -}}
+
+<!-- 通过Markdown Render Hooks实现放大图片 -->
+<!-- {{if .Page.Site.Params.fancybox }}
+<div class="post-img-view">
+<a data-fancybox="gallery" href="{{ .Destination | safeURL }}">
+<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
+</a>
+</div>
+{{ end }} -->

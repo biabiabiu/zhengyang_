@@ -23,9 +23,8 @@ categories: ["杂谈"]
 ## 为什么将Edge作为主要浏览器
 
 这是我当前的版本信息
-
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-23 221657.png" title="版本信息" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/屏幕截图 2023-03-23 221657.png"><img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-23 221657.png" title="版本信息" height="100%" width="90%"/></a></a>
 </center>
 
 
@@ -68,7 +67,8 @@ Edge 可能是最合适的跨平台浏览器，就以目前的版本来讲
 与其他浏览器一样，Edge可以做为PDF阅读器来使用，不同的是它还可以做标注和涂鸦！这就允许我工作时为一些PDF文件脱去敏感信息而不需要安装额外的PDF编辑器
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-23 223458.png" title="PDF编辑" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/屏幕截图 2023-03-23 223458.png">
+    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-23 223458.png" title="PDF编辑" height="100%" width="90%"/></a>
 </center>
 
 
@@ -76,7 +76,8 @@ Edge 可能是最合适的跨平台浏览器，就以目前的版本来讲
 &nbsp;
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-23 223608.png" title="PDF编辑" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/屏幕截图 2023-03-23 223608.png">
+    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-23 223608.png" title="PDF编辑" height="100%" width="90%"/></a>
 </center>
 
 
@@ -91,7 +92,8 @@ Edge 可能是最合适的跨平台浏览器，就以目前的版本来讲
 浏览网页内容看到不错的段落想要复制下来，可以右键`Web选择`，框选相中的内容便可以复制，相当方便
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-23 230943.png" title="Web选择" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/屏幕截图 2023-03-23 230943.png">
+    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-23 230943.png" title="Web选择" height="100%" width="90%"/></a>
 </center>
 
 
@@ -108,7 +110,8 @@ Drop功能其实已经上线大半年了，正式版的我也是刚刚才用上
 该功能可以帮助用户使用浏览器跨设备共享文件和笔记
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-23 232637.png" title="Drop" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/屏幕截图 2023-03-23 232637.png">
+    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-23 232637.png" title="Drop" height="100%" width="90%"/></a>
 </center>
 
 
@@ -125,7 +128,8 @@ Drop功能其实已经上线大半年了，正式版的我也是刚刚才用上
 在Edge的侧栏还有一个值得称赞的功能
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-23 234134.png" title="侧栏工具" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/屏幕截图 2023-03-23 234134.png">
+    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-23 234134.png" title="侧栏工具" height="100%" width="90%"/></a>
 </center>
 
 
@@ -142,7 +146,8 @@ New Bing我大概是在3月中旬注册的，当时按照推特上的一个方�
 简单体验了一番，确实要比国内手机厂商内置的小爱、小布要智能些。据说已经有人靠它这类AI吃饭了
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-24 000223.png" title="NewBing" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/屏幕截图 2023-03-24 000223.png">
+    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-24 000223.png" title="NewBing" height="100%" width="90%"/></a>
 </center>
 
 
@@ -151,14 +156,16 @@ New Bing我大概是在3月中旬注册的，当时按照推特上的一个方�
 之前问过它“是否基于ChatGPT开发”的问题，当时回答的是，现在不承认了，问也不让问😡
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-23 235950.png" title="NewBing" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/屏幕截图 2023-03-23 235950.png">
+    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-23 235950.png" title="NewBing" height="100%" width="90%"/></a>
 </center>
 
 
 挺好玩的哈哈
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-24 001442.png" title="NewBing" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/屏幕截图 2023-03-24 001442.png">
+    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-24 001442.png" title="NewBing" height="100%" width="90%"/></a>
 </center>
 
 
@@ -171,7 +178,8 @@ New Bing我大概是在3月中旬注册的，当时按照推特上的一个方�
 可以直接添加页面、段落，以及加入自己的文字作为备注
 
 <center>
-    <img class="jf-image-shadow" src="\images\still-image\屏幕截图 2023-03-24 004204.png" title="集锦" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="\images\still-image\屏幕截图 2023-03-24 004204.png">
+    <img class="jf-image-shadow" src="\images\still-image\屏幕截图 2023-03-24 004204.png" title="集锦" height="100%" width="90%"/></a>
 </center>
 
 
@@ -182,7 +190,8 @@ New Bing我大概是在3月中旬注册的，当时按照推特上的一个方�
 可以将几个标签页组合在一起进行分组
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-24 001648.png" title="垂直选项卡" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/屏幕截图 2023-03-24 001648.png">
+    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-24 001648.png" title="垂直选项卡" height="100%" width="90%"/></a>
 </center>
 
 
@@ -199,7 +208,8 @@ New Bing我大概是在3月中旬注册的，当时按照推特上的一个方�
 两个都是内存杀手...
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-24 005238.png" title="内存占用" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/屏幕截图 2023-03-24 005238.png">
+    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-24 005238.png" title="内存占用" height="100%" width="90%"/></a>
 </center>
 
 
@@ -215,14 +225,15 @@ New Bing我大概是在3月中旬注册的，当时按照推特上的一个方�
 
 再三权衡下，我把Chrome上能够转移的资料信息都交给了不需要过多折腾、接入微软“生态圈”的`MicrosoftEdge`。用作我的主力浏览器工具
 
-## 附加几个小技巧
+## 附加几个MicrosoftEdge使用技巧
 
 #### 关闭设置默认浏览器提示
 
-遇到经常弹窗询问是否要将Microsoft Edge设置为默认浏览器，在地址栏输入`edge://flags`搜索`recommendations`将其设置为`Disabled`
+遇到经常弹窗询问“是否要将Microsoft Edge设置为默认浏览器”，在地址栏输入`edge://flags`搜索`recommendations`将其设置为`Disabled`
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-24 002249.png" title="关闭设置默认浏览器提示" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/屏幕截图 2023-03-24 002249.png">
+    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-24 002249.png" title="关闭设置默认浏览器提示" height="100%" width="90%"/></a>
 </center>
 
 
@@ -231,7 +242,8 @@ New Bing我大概是在3月中旬注册的，当时按照推特上的一个方�
 如果你的电脑端没有Drop，可以进`edge://flags`搜索`drop`将这两项开关设置为`Enabled`
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-24 002834.png" title="开启Drop" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/屏幕截图 2023-03-24 002834.png">
+    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-24 002834.png" title="开启Drop" height="100%" width="90%"/></a>
 </center>
 
 
@@ -240,7 +252,8 @@ New Bing我大概是在3月中旬注册的，当时按照推特上的一个方�
 地址栏输入`edge://surf`开启冲浪！
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-24 003159.png" title="冲浪小游戏" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/屏幕截图 2023-03-24 003159.png">
+    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-24 003159.png" title="冲浪小游戏" height="100%" width="90%"/></a>
 </center>
 
 
@@ -249,5 +262,6 @@ New Bing我大概是在3月中旬注册的，当时按照推特上的一个方�
 进`edge://flags`搜索`downloading`，并将其设置为`Enabled`
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-24 004430.png" title="开启多线程下载" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/屏幕截图 2023-03-24 004430.png">
+    <img class="jf-image-shadow" src="/images/still-image/屏幕截图 2023-03-24 004430.png" title="开启多线程下载" height="100%" width="90%"/></a>
 </center>

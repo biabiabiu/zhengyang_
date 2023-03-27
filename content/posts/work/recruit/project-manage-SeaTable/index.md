@@ -48,46 +48,45 @@ categories: ["工作"]
 SeaTable对个人以及20人以下的小团队免费开放，如果需求量大可以考虑付费，对于小企业来讲还是比较人性化的
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-6.png" title="Seatable收费表" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/2022-06-13-6.png"><img class="jf-image-shadow" src="/images/still-image/2022-06-13-6.png" title="Seatable收费表" height="100%" width="90%"/></a>
 </center>
 
 
 ##### 团队免费版
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-5.png" title="Seatable团队免费版套餐" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/2022-06-13-5.png"><img class="jf-image-shadow" src="/images/still-image/2022-06-13-5.png" title="xxSeatable团队免费版套餐xx" height="100%" width="90%"/></a>
 </center>
-
 
 ##### 模板
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-2.png" title="Seatable模板" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/2022-06-13-2.png"><img class="jf-image-shadow" src="/images/still-image/2022-06-13-2.png" title="Seatable模板" height="100%" width="90%"/></a>
 </center>
 
 
 ##### 其他展示
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-1.png" title="我的Seatable" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/2022-06-13-1.png"><img class="jf-image-shadow" src="/images/still-image/2022-06-13-1.png" title="我的Seatable" height="100%" width="90%"/></a>
 </center>
 
 &nbsp;
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-3.png" title="Seatable展示" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/2022-06-13-3.png"><img class="jf-image-shadow" src="/images/still-image/2022-06-13-3.png" title="Seatable展示" height="100%" width="90%"/></a>
 </center>
 
 &nbsp;
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-4.png" title="Seatable展示" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/2022-06-13-4.png"><img class="jf-image-shadow" src="/images/still-image/2022-06-13-4.png" title="Seatable展示" height="100%" width="90%"/></a>
 </center>
 
 &nbsp;
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/2022-06-13-7.png" title="Seatable工作流" height="100%" width="80%"/>
+<a data-fancybox="gallery" href="/images/still-image/2022-06-13-7.png"><img class="jf-image-shadow" src="/images/still-image/2022-06-13-7.png" title="Seatable工作流" height="100%" width="90%"/></a>
 </center>
 
 

@@ -20,9 +20,38 @@
         {{- dict "Source" ($analytics.fathom.server | default "cdn.usefathom.com" | printf "https://%v/tracker.js") "Async" true "Attr" "id=fathom-script" | partial "plugin/script.html" -}}
     {{- end -}}
 
-    {{- /* Baidu Analytics */ -}}
-    {{- with $analytics.baidu.id -}}
-        <script>
+    {{- /* Plausible Analytics */ -}}
+    {{- with $analytics.plausible.dataDomain -}}
+        {{- dict "Source" "https://plausible.io/js/plausible.js" "Async" true "Defer" true "Attr" ($analytics.plausible.dataDomain | printf `data-domain="%v"`) | partial "plugin/script.html" -}}
+    {{- end -}}
+
+    {{- /* Yandex Metrica */ -}}
+    {{- with $analytics.yandexMetrica.id -}}
+        <script type="text/javascript" >
+           (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+           m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+           (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+           ym({{ . }}, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true
+           });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/{{ . }}" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    {{- end -}}
+
+    <!-- Bing Clarity -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "amvhkgmy32");
+    </script>
+
+    <!-- Baidu Analytics -->
+    <script>
         var _hmt = _hmt || [];
         (function() {
           var hm = document.createElement("script");
@@ -31,6 +60,6 @@
           s.parentNode.insertBefore(hm, s);
         })();
         </script>
-	{{- end -}}
+        
 
 {{- end -}}

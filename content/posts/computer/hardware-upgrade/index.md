@@ -139,9 +139,8 @@ Info:
 **拆卸下的光驱**
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/m-hard-drive.jpg" title="mechanical hard drive" width="80%" />
+<a data-fancybox="gallery" href="/images/still-image/m-hard-drive.jpg"><img class="jf-image-shadow" src="/images/still-image/m-hard-drive.jpg" title="硬盘" height="100%" width="90%"/></a>
 </center>
-
 
 ## 系统重装
 本子出厂预装的是Windows 10，用起来实在是太卡，决定将其后退至Windows 7，重装过程比较顺利，没有遇到报错。以下是安装过程
@@ -159,11 +158,11 @@ Info:
 其实笔记本女朋友平时也不怎么用，我又可以继续瞎折腾了，于是便划出50G的空间用来装Ubuntu
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/ubuntu-desktop.png" title="ubuntu-desktop" width="85%" />
+<a data-fancybox="gallery" href="/images/still-image/ubuntu-desktop.png"><img class="jf-image-shadow" src="/images/still-image/ubuntu-desktop.png" title="ubuntu-desktop" height="100%" width="90%"/></a>
 </center>
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/ubuntu-setting.png" title="ubuntu-setting" width="85%" />
+<a data-fancybox="gallery" href="/images/still-image/ubuntu-setting.png"><img class="jf-image-shadow" src="/images/still-image/ubuntu-setting.png" title="ubuntu-setting" height="100%" width="90%"/></a>
 </center>
 
 
@@ -227,29 +226,27 @@ com.qq.weixin.deepin/未知,now 3.4.0.38deepin6 i386 [已安装]
 **微信使用体验**
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/ubuntu-weixin-login.png" title="wechat-login"  />
+<a data-fancybox="gallery" href="/images/still-image/ubuntu-weixin-login.png"><img class="jf-image-shadow" src="/images/still-image/ubuntu-weixin-login.png" title="wechat-login" height="100%" width="90%"/></a>
 </center>
 
 &nbsp;
 
 
-
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/ubuntu-weixin-about.png" title="wechat-about" width="85%" />
+<a data-fancybox="gallery" href="/images/still-image/ubuntu-weixin-about.png"><img class="jf-image-shadow" src="/images/still-image/ubuntu-weixin-about.png" title="wechat-about" height="100%" width="90%"/></a>
 </center>
-
 
 **浏览器(Firefox)使用体验**
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/ubuntu-firefox.png" title="wechat-about" width="85%" />
+<a data-fancybox="gallery" href="/images/still-image/ubuntu-firefox.png"><img class="jf-image-shadow" src="/images/still-image/ubuntu-firefox.png" title="Fire-about" height="100%" width="90%"/></a>
 </center>
 
 
 **WPS使用体验**
 
 <center>
-    <img class="jf-image-shadow" src="/images/still-image/ubuntu-usewps.png" title="Ubuntu-WPS" width="85%" />
+<a data-fancybox="gallery" href="/images/still-image/ubuntu-usewps.png"><img class="jf-image-shadow" src="/images/still-image/ubuntu-usewps.png" title="Ubuntu-Wps" height="100%" width="90%"/></a>
 </center>
 
 

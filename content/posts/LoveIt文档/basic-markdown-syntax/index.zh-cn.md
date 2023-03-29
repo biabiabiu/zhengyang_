@@ -13,7 +13,7 @@ resources:
   src: "featured-image.png"
 
 tags: ["Markdown", "HTML"]
-categories: ["Markdown"]
+categories: ["学习"]
 
 lightgallery: true
 ---

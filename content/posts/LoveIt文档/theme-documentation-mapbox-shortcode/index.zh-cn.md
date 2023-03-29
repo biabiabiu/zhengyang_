@@ -13,7 +13,7 @@ resources:
   src: "featured-image.jpg"
 
 tags: ["shortcodes"]
-categories: ["documentation"]
+categories: ["学习"]
 
 hiddenFromHomePage: true
 

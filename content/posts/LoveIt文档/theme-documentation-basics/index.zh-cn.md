@@ -13,7 +13,7 @@ resources:
   src: "featured-image.jpg"
 
 tags: ["installation", "configuration"]
-categories: ["documentation"]
+categories: ["学习"]
 
 lightgallery: true
 

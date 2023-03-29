@@ -7,7 +7,7 @@ date: 2022-03-30T15:54:49+08:00
 draft: false
 
 tags: ["Windows","Linux"]
-categories: ["Computer"]
+categories: ["学习"]
 ---
 
 记录了旧笔记本升级硬件配置的过程。

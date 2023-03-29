@@ -7,7 +7,7 @@ date: 2022-02-20T20:18:53+08:00
 draft: false
 
 tags: ["Hugo","Hugo配置"]
-categories: ["Hugo"]
+categories: ["学习"]
 ---
 
 

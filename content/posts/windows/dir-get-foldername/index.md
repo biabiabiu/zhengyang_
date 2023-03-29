@@ -7,7 +7,7 @@ date: 2020-08-31T23:07:05+08:00
 draft: false
 
 tags: ["Windows","DIR命令"]
-categories: ["Windows"]
+categories: ["学习"]
 ---
 
 

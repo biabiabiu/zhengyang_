@@ -6,8 +6,8 @@ keywords: ["键盘","笔记本"]
 date: 2022-03-06T16:58:30+08:00
 draft: false
 
-tags: ["键盘禁用"]
-categories: ["Windows","记录"]
+tags: ["记录","Windows"]
+categories: ["学习"]
 ---
 
 记录了如何禁用笔记本自带键盘的方法。

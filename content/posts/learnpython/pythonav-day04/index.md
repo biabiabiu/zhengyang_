@@ -7,7 +7,7 @@ date: 2022-03-02T23:45:16+08:00
 draft: false
 
 tags: ["Python"]
-categories: ["Python"]
+categories: ["学习"]
 ---
 
 学习Python的第四篇日志。

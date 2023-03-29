@@ -4,7 +4,7 @@ date: 2021-01-01T18:04:42+08:00
 draft: false
 
 tags: ["试药", "临床试验"]
-categories: ["试药"]
+categories: ["工作"]
 ---
 
 

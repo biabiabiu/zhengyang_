@@ -7,7 +7,7 @@ date: 2022-06-14T11:04:42+08:00
 draft: false
 
 tags: ["Hugo","Git"]
-categories: ["Hugo"]
+categories: ["学习"]
 ---
 
 博客长时间未进行维护更新后发生了点小意外，这里记录了该问题的解决过程。

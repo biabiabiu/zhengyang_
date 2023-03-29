@@ -15,7 +15,7 @@ resources:
   src: "featured-image-preview.jpg"
 
 tags: ["shortcodes"]
-categories: ["documentation"]
+categories: ["学习"]
 
 lightgallery: true
 

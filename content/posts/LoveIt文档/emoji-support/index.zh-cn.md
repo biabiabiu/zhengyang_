@@ -13,7 +13,7 @@ resources:
   src: "featured-image.jpg"
 
 tags: ["emoji"]
-categories: ["Markdown"]
+categories: ["学习"]
 
 twemoji: false
 lightgallery: true

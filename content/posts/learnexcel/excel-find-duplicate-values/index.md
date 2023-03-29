@@ -7,7 +7,7 @@ date: 2020-10-21T23:53:03+08:00
 draft: false
 
 tags: ["Excel","CountIF"]
-categories: ["Excel"]
+categories: ["学习"]
 ---
 
 

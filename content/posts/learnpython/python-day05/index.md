@@ -7,7 +7,7 @@ date: 2022-03-06T00:56:35+08:00
 draft: false
 
 tags: ["Python"]
-categories: ["Python"]
+categories: ["学习"]
 ---
 
 python的一些练习题。

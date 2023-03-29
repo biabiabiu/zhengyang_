@@ -7,7 +7,7 @@ date: 2022-02-28T00:45:29+08:00
 draft: false
 
 tags: ["Python"]
-categories: ["Python"]
+categories: ["学习"]
 ---
 
 Python学习的第一篇日志。

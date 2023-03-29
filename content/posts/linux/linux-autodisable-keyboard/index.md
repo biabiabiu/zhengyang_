@@ -6,8 +6,8 @@ keywords: ["linux","禁用键盘","笔记本"]
 date: 2022-04-04T18:02:36+08:00
 draft: false
 
-tags: ["键盘禁用"]
-categories: ["Linux","记录"]
+tags: ["Linux","记录"]
+categories: ["学习"]
 ---
 
 这篇记录了我为Linux设置自动禁用笔记本键盘的过程。

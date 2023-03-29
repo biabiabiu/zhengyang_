@@ -7,7 +7,7 @@ date: 2022-02-20T21:21:11+08:00
 draft: false
 
 tags: ["阅读","笔记"]
-categories: ["乐趣"]
+categories: ["学习"]
 ---
 
 摘自于《遥远的救世主》 ——豆豆

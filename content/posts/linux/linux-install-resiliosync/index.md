@@ -7,7 +7,7 @@ date: 2022-03-15T20:54:42+08:00
 draft: false
 
 tags: ["ResilioSync","文件传输"]
-categories: ["Linux"]
+categories: ["学习"]
 ---
 
 记录了我在Linux下安装配置`ResilioSync`的过程。

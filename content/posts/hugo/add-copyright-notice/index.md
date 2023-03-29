@@ -6,8 +6,8 @@ keywords: ["Hugo","版权声明"]
 date: 2022-02-14T00:56:45+08:00
 draft: false
 
-tags: ["Hugo","Hugo配置"]
-categories: ["Hugo"]
+tags: ["Hugo"]
+categories: ["学习"]
 ---
 
 

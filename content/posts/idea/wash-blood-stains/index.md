@@ -6,8 +6,8 @@ keywords: ["血渍","硫磺皂"]
 date: 2022-02-28T01:23:31+08:00
 draft: false
 
-tags: ["想法"]
-categories: ["想法"]
+tags: ["技巧"]
+categories: ["生活"]
 ---
 
 洗去衣物上血渍最佳办法！

@@ -7,7 +7,7 @@ date: 2020-03-17T23:39:27+08:00
 draft: false
 
 tags: ["Linux","anaconda"]
-categories: ["Linux"]
+categories: ["学习"]
 ---
 
 

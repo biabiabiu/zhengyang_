@@ -7,7 +7,7 @@ date: 2023-03-23T00:08:52+08:00
 draft: false
 
 tags: ["MicrosoftEdge"]
-categories: ["杂谈"]
+categories: ["学习"]
 ---
 
 这篇记录了我为什么在众多浏览器中选择了`Microsoft Edge`。我将引入新版Edge的部分功能以及个人的使用体验做简单介绍

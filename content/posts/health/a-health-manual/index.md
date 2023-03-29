@@ -3,7 +3,7 @@ title: "健康手册"
 date: 2022-02-02T23:15:02+08:00
 draft: false
 tags: ["健康","默沙东"]
-categories: ["健康"]
+categories: ["工作"]
 ---
 
 这是一份来自`默沙东`的健康手册。

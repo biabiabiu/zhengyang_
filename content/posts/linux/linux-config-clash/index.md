@@ -7,7 +7,7 @@ date: 2022-03-19T16:01:14+08:00
 draft: false
 
 tags: ["Linxu","Clash"]
-categories: ["Linux"]
+categories: ["学习"]
 ---
 
 记录了我在Linux环境配置Clash的过程。

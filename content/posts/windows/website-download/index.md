@@ -1,5 +1,5 @@
 ---
-title: "Wget整站下载"
+title: "利用Wget整站下载"
 description:  "这篇介绍了如何进行整站下载"
 keywords: ["整站下载","网页下载","批量下载","Wget"]
 summary: "Windows下进行整站下载的简单方法"
@@ -7,7 +7,7 @@ summary: "Windows下进行整站下载的简单方法"
 date: 2023-04-19T21:42:53+08:00
 draft: false
 
-tags: ["Windows"]
+tags: ["Windows","记录"]
 categories: ["学习"]
 ---
 

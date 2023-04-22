@@ -4,10 +4,10 @@ description:  "使用Warp科学上网"
 keywords: ["科学上网","warp"]
 summary: "使用Warp实现科学上网，免费的VPN服务"
 
-date: 2023-04-20T11:30:38+08:00
+date: 2023-04-21T11:30:38+08:00
 draft: false
 
-tags: ["Warp"]
+tags: ["Warp","记录"]
 categories: ["学习"]
 ---
 

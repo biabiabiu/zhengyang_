@@ -23,17 +23,21 @@ math:
 
 平时也有随便写写的习惯，但较为杂乱分散，不便于检索和管理，于是便有了本站
 
-毕业于二流本科院校，后扎根成都，奋斗在`临床招募`行业，正在尝试第一次创业
-
-**...**
+毕业于二本院校，来到成都，工作在`临床招募`行业。尝试第一次创业
 
 随便写写
+
+**...**
 
 &nbsp;
 
 ### Contact
 
->Email:  zhengyang.one@foxmail.com </br></br> 个人微信：zhengyangI_I </br></br> 微信公众号：愚人杂记
+>Email:  zhengyang.one@gmail.com </br></br> 微信：zhengyang_w </br>
+
+&nbsp;
+
+{{< mapbox lng=104.125 lat=30.633 zoom=9 marked=true light-style="mapbox://styles/mapbox/streets-zh-v1?optimize=true" >}}
 
 &nbsp;
 
@@ -45,5 +49,4 @@ math:
 <a href="https://gohugo.io/"><img src="https://img.shields.io/badge/Hugo-v0.92.1-ff4088?style=flat-square&logo=hugo"/></a>
 <a href="https://app.netlify.com/sites/foolnotes/deploys"><img src="https://api.netlify.com/api/v1/badges/c2faa68a-3b68-4746-a851-48a929726d40/deploy-status"/></a>
 </p>
-
 

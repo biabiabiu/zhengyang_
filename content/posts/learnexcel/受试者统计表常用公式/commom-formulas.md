@@ -1,10 +1,10 @@
 ---
-title: "受试者信息统计表中常用公式"
-description:  "受试者信息统计表中常用公式"
+title: "受试者统计表中几个常用的Excel公式"
+description:  "受试者信息统计表中常用Excel公式"
 keywords: ["excel","公式"]
 summary: "整理了受试者信息统计表中的常用Excel公式"
 
-date: 2023-05-03T12:15:50+08:00
+date: 2023-05-01T12:15:50+08:00
 draft: false
 
 tags: ["Excel"]
